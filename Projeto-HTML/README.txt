@@ -1,0 +1,1 @@
+Criação do projeto de HTML como parte de um exercício dos estudos na plataforma DIO.
