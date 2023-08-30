@@ -1,0 +1,98 @@
+
+
+.principal {
+
+    background-image: url(../imagens/redes-neurais.jpg);
+    background-color: #333;
+    color: white;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+}
+
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding: 0;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    flex-flow: column;
+    width: 85%;
+    margin-top: 20px;
+    display: flex;
+
+
+    
+}
+.menu {
+        width: 15%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+}
+.header {
+    display: flex;
+    position: absolute;
+    width: 2000px;
+    margin-left: 20020px;
+}
+.content {
+    background-color: white;
+    position:flex;
+    margin-top: 20px;
+    padding: 200px;
+}
+footer {
+    background-color: rgb(99, 56, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 150px; 
+    width: 100%;
+  }
+  
+
+.dr-icaro .imagem {
+
+    background-size: 50%;
+    image-resolution: 10%;
+    width: 200px;
+    height: 200px;
+    position:relative;
+}
+
+.dra-sofia .imagem {
+
+    background-size: 50%;
+    image-resolution: 10%;
+    width: 200px;
+    height: 200px;
+    position:relative;
+}
+
+.dr-icaro {
+
+    bottom: 500px;
+    
+}
