@@ -1,18 +1,77 @@
+.content p {
 
+    margin-left: 100px;
+    position: relative;
+    text-align: center;
+    max-width: 500px;
+    max-height: 500px;
+    font-size: 30px;
+    bottom: 200px;
+}
 
 .principal {
 
     background-image: url(../imagens/redes-neurais.jpg);
-    background-color: #333;
-    color: white;
+    background-color:#d1ccc7;
     text-align: center;
-    height: 150px;
-    width: 100%;
+    margin-left: 140px;
+    background-size: cover;
+    background-repeat:no-repeat;
+
+}
+
+.HContato {
+
+    background-image: url(../imagens/lente.png);
+    background-color:#d1ccc7;
+    text-align: center;
+    margin-left: 140px;
+    background-size: 28%;
+    background-repeat:no-repeat;
+}
+
+.HHorario {
+
+        background-image: url(../imagens/horario.jpg);
+        background-color:#375462;
+        text-align: center;
+        background-size: 17%;
+        background-repeat:no-repeat;
+        margin-left: 240px;
+        margin-top: -1px;
+   
+}
+
+header h1 {
+    color:#33333370;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.HHorario h1 {
+
+    color:#c5c0c0;
+    margin-right: 90px;
+}
+
+.HSobre {
+    background-image: url(../imagens/sobre.jpg);
+    background-color:#e4d8ca;
+    text-align: center;
+    background-size: 20%;
+    background-repeat:no-repeat;
+    margin-left: 240px;
+    margin-top: -1px;
+
 }
 
 html, body {
     margin: 0;
 }
+
 body {
     background-color: #f1f1f1;
     display: flex;
@@ -28,15 +87,14 @@ body {
     margin: 0 auto;
     background-color: aquamarine;
 }
+
 .main {
     flex-flow: column;
     width: 85%;
     margin-top: 20px;
     display: flex;
-
-
-    
 }
+
 .menu {
         width: 15%;
         position: fixed;
@@ -49,29 +107,56 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        list-style: none;
       
 }
+
 .header {
     display: flex;
     position: absolute;
     width: 2000px;
     margin-left: 20020px;
 }
+
 .content {
+
     background-color: white;
     position:flex;
     margin-top: 20px;
     padding: 200px;
 }
+
 footer {
-    background-color: rgb(99, 56, 240);
+
+    background-color: #555;
     display: flex;
     justify-content: center;
     align-items: center; 
     min-height: 150px; 
     width: 100%;
-  }
-  
+    margin-top: 50px;
+
+}
+
+.apresentacao {
+
+    display: flex;
+    align-content:space-evenly;
+
+}
+
+.dr-icaro {
+
+    left:-200px;
+    max-width: 300px;
+    margin-left: 300px;
+    text-align: center;
+    border-color: hsla(0, 0%, 20%, 0.5);
+    padding-top: 10px;
+    background-color: #cfe1e6;
+    margin-top: -350px;
+
+}
 
 .dr-icaro .imagem {
 
@@ -82,6 +167,17 @@ footer {
     position:relative;
 }
 
+.dra-sofia {
+
+    left:-200px;
+    max-width: 300px;
+    margin-left: 200px;
+    text-align: center;
+    border-color: hsla(0, 0%, 20%, 0.5);
+    padding-top: 10px;
+    background-color: #cfe1e6;
+    margin-top: -350px;
+}
 .dra-sofia .imagem {
 
     background-size: 50%;
@@ -89,10 +185,148 @@ footer {
     width: 200px;
     height: 200px;
     position:relative;
+
 }
 
 .dr-icaro {
 
     bottom: 500px;
+
+}
+
+.menu ul li{
+
+    min-height: 160px;
+    color: #cfe1e6;
+    
     
 }
+
+.menu ul li a {
+
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    min-width: 160px;
+    margin-left: -40px;
+    text-align: center;
+    
+    
+}
+
+.menu ul li a:hover {
+
+    background-color: #555;
+
+  }
+
+.menu ul {
+
+    list-style: none;
+
+}
+
+.menu li {
+    border: #f1f1f1;
+}
+
+.content-contato {
+
+    margin-left: 300px;
+}
+
+table {
+ min-height: 150px ;
+ text-align:left;
+ align-items: center;
+}
+
+td {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+label {
+
+    display: block;
+    margin-bottom: 4px;
+    
+}
+
+.msg textarea {
+
+ min-width: 200px;;
+ padding: 20px;
+
+}
+
+.content-horario {
+
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.servico {
+    margin-right: 400px;
+}
+
+
+.servico th {
+    border: 1px solid #c5c0c0;
+    padding: 12px;
+    text-align: center;
+
+  }
+.servico td {
+    border: 1px solid #c5c0c0;
+    padding: 12px;
+    text-align: center;
+
+}
+
+  .servico th {
+    background-color: #807c7c;
+    color: #e9e5e5;
+  
+  }
+
+  .pHorario {
+
+    margin-left: 300px;
+    font-size: 115%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .imgsala {
+
+    max-width: 300px;
+    max-height: 300px;
+    float: right;
+    margin: 50px;
+    
+
+  }
+
+  .pSobre {
+
+    margin-left: 300px;
+    text-align: justify;
+    position: relative;
+    
+  }
+
+  .pSobre p {
+    justify-content: left;
+    display: flex;
+    position: absolute;
+    margin-top: 100px;
+    max-width: 500px;
+    margin-left: 100px;
+    font-size: 1.3em;
+    text-indent: 10px;
+    word-spacing: 4px;
+    
+  }

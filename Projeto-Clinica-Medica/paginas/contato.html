@@ -1,26 +1,76 @@
-<div id="content">
-    <h1>Contato</h1>
-    <p>Entre em contato conosco através dos seguintes meios:</p>
-    <ul>
-        <li>E-mail: telefone@email.com</li>
-        <li>Telefone: (12) 3456-7890</li>
-    </ul>
-    <iframe src="https://www.google.com/maps/embed?..." frameborder="0" allowfullscreen></iframe>
-    <h2>Formulário de Contato</h2>
-    <form action="processar_formulario.php" method="post">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
-        
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="assunto">Assunto:</label>
-        <input type="text" id="assunto" name="assunto" required>
-        
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" required></textarea>
-        
-        <button type="submit">Enviar</button>
-        <button type="reset">Limpar</button>
-    </form>
-</div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conectwork</title>
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <link rel="icon" href="../imagens/icone-cerebro.jpg" type="image/x-icon">
+
+</head>
+<body>
+    <header class="HContato">
+        <h1>Conectwork</h1>
+      </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="sobre.html">Sobre a Clínica</a></li>
+            <li><a href="horario.html">Horário de Atendimento</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="content-contato">
+            <h1>Contato</h1>
+            <p>Entre em contato conosco através dos seguintes meios:</p>
+            <ul>
+                <li><strong>Telefone: (34) 1456-7890</strong></li>
+                <li><strong>Whatsapp: (34) 9 1956-7890</strong></li>
+            </ul>
+            <br>
+            <form>
+                <table>
+                    <h2>Formulário de Contato</h2>
+                    <tr>
+                        <th colspan="4"><label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required></th>
+                        </tr>
+                        
+                        <tr>
+                            <th><label for="email">E-mail:</label>
+                                <input type="email" id="email" name="email" required></th>
+                            </tr>
+                            
+                            <tr>
+                                <td colspan="6"><label for="assunto">Assunto:</label>
+                                    <input type="text" id="assunto" name="assunto" required></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="msg"><label for="mensagem">Mensagem:</label>
+                                        <textarea id="mensagem" name="mensagem" required></textarea></td>   
+                                    </tr>
+                                </table>
+                                
+                                
+                                
+                                <button type="submit">Enviar</button>
+                                <button type="reset">Limpar</button>
+                            </form>
+                            <br>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.49184450987!2d-48.24955677578706!3d-18.909611557345027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a4458301699ba9%3A0x10f4402276e85e1c!2sEduardo%20Rende%20-%20Tibery%2C%20Uberl%C3%A2ndia%20-%20State%20of%20Minas%20Gerais!5e0!3m2!1sen!2sbr!4v1693403833117!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+        </div>
+    </main>
+
+    
+    <footer>
+        <p>Entre em contato: conectwork@gmail.com | (34) 9 1023-7890</p>
+    </footer>
+</body>
+</html>
+
+
